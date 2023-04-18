@@ -1,0 +1,29 @@
+#include <vte/vte.h>
+
+
+int main() {
+
+	GtkWidget * window;
+
+	gtk_init();
+
+}
+
+/*
+gcc -O2 -Wall $(pkg-config --cflags vte-2.91) term.c 
+
+-O2 --help=optimizers
+
+-Wall warning all, unused variable(s)
+*/
+
+/*
+https://stackoverflow.com/questions/23969870/how-to-convert-gchar-to-char
+
+https://stackoverflow.com/questions/31082659/whats-the-difference-between-gtkapplication-and-gtk-init
+*/
+
+/*
+/usr/include/gtk-3.0/gtk/gtkmain.h:101:10: note: declared here
+  101 | void     gtk_init                 (int    *argc,
+*/
