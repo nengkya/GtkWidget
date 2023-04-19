@@ -10,11 +10,11 @@ int main() {
 }
 
 /*
-gcc -O2 -Wall $(pkg-config --cflags vte-2.91) term.c 
-
 -O2 --help=optimizers
 
 -Wall warning all, unused variable(s)
+
+https://vincent.bernat.ch/en/blog/2017-write-own-terminal
 */
 
 /*
