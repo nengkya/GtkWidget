@@ -27,3 +27,15 @@ https://stackoverflow.com/questions/31082659/whats-the-difference-between-gtkapp
 /usr/include/gtk-3.0/gtk/gtkmain.h:101:10: note: declared here
   101 | void     gtk_init                 (int    *argc,
 */
+
+/*
+git add .
+-- command will index any new files and staging modified files
+from your working tree to be committed,
+but it will ignore whatever you have removed files
+from your working tree.
+
+git add -A/--all
+-- command will add any new files,
+modified content and removed files from your working tree.
+*/
