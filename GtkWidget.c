@@ -1,8 +1,8 @@
 #include <vte/vte.h>
 
 static void
-  child_ready(VteTerminal *terminal, 
-    GPid pid, GError *error, gpointer user_data)
+	child_ready(VteTerminal *terminal, 
+		GPid pid, GError *error, gpointer user_data)
 {
 
 	if (!terminal) return;
